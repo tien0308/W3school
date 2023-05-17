@@ -1,0 +1,149 @@
+/* PC */
+@media (min-width: 64em) {
+    
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    .s-full-width {
+        width: 100% !important;
+    }
+
+    .s-col-full {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background: #333;
+    }
+
+    #nav .subnav a {
+        color:#fff;
+        padding: 5px 41px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        position: absolute;
+        top:23px;
+        right: 0;
+        display: block;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    #content .members-list {
+        height: 700px;
+    }
+
+    .contact-form {
+        margin-top: 32px;
+    }
+
+
+    .footer .socials-list,
+    .footer .coppyright {
+        font-size: 25px;
+    }
+
+    #slider .text-heading {
+        font-weight: 500;
+        font-size: 18px;
+        margin-top: -40px;
+    }
+
+    .text-heading {
+        margin-top: -5px;
+    }
+}    
+
+
+
+/* Tablet & Mobile */
+@media (max-width: 63.9375em) {
+    .place-buy-btn {
+        padding: 15px 16px;
+    }
+
+    #nav .subnav a {
+        padding:6px 12px;
+    }
+
+    .contact-form .form-control {
+        padding:15px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+    
+    .footer .socials-list a {
+        margin: 0 8px;
+    }
+
+    .footer .coppyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width:63.9375em) {
+    .footer .socials-list {
+        font-size: 48px;
+    }
+
+    .footer .coppyright {
+        font-size: 30px;
+    }
+
+    .contact-info a:hover {
+        opacity: 0.8;
+    }
+
+    #slider .text-description {
+        margin-top: 15px;
+    }
+
+    #slider .text-content {
+        margin-top: -20px;
+    }
+
+    #slider .text-heading {
+        font-size: 30px;
+    }
+
+}
