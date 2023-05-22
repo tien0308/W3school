@@ -1,6 +1,7 @@
 /* PC */
 @media (min-width: 64em) {
-    
+    html {
+        scroll-behavior: smooth;
 }
 
 /* Mobile */
@@ -145,5 +146,6 @@
     #slider .text-heading {
         font-size: 30px;
     }
-
+     html {
+         scroll-behavior: smooth;
 }
