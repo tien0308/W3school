@@ -145,6 +145,7 @@
     #slider .text-heading {
         font-size: 30px;
     }
+    
      html {
          scroll-behavior: smooth;
-}
+    }
