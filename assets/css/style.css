@@ -342,7 +342,8 @@ html {
     border: 0;
     cursor: pointer;
     text-align: center;
-
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .place-buy-btn:hover {
